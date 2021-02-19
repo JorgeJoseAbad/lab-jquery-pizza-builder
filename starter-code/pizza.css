@@ -101,7 +101,7 @@ body {
 /* Imitate a pressed effect for buttons */
 .btn:active {
   top: 5px;
-  box-shadow: none;
+  box-shadow: darkblue;
 }
 
 /*------ Header -----*/
@@ -855,11 +855,11 @@ p.description {
 }
 
 .green-pepper.six {
-    margin: 300px 0 0 200px;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
+    margin: 180px 0 0 500px;
+    -webkit-transform: rotate(112deg);
+    -moz-transform: rotate(112deg);
+    -o-transform: rotate(112deg);
+    transform: rotate(112deg);
 }
 
 .green-pepper.seven {
@@ -895,15 +895,15 @@ p.description {
 }
 
 .green-pepper.eleven {
-    margin: 300px 0 0 200px;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
+    margin: 300px 0 0 300px;
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    transform: rotate(15deg);
 }
 
 .green-pepper.twelve {
-    margin: 300px 0 0 200px;
+    margin: 350px 0 0 200px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -912,14 +912,14 @@ p.description {
 
 .green-pepper.thirteen {
     margin: 300px 0 0 200px;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
+    -webkit-transform: rotate(230deg);
+    -moz-transform: rotate(230deg);
+    -o-transform: rotate(230deg);
+    transform: rotate(230deg);
 }
 
 .green-pepper.fourteen {
-    margin: 210px 0 0 300px;
+    margin: 250px 0 0 300px;
     -webkit-transform: rotate(10deg);
     -moz-transform: rotate(10deg);
     -o-transform: rotate(10deg);
@@ -1001,6 +1001,7 @@ footer a:hover {
 
 #crumbs {
     opacity: 0;
+    transition: all .3s linear;
     -webkit-transition: all .3s linear;
 }
 
